@@ -1,6 +1,6 @@
 import java.util.*;
 public class SelectionSort {
-    public static void SelectionSort(int arr[]){
+    public static void selectionSort(int arr[]){
         for(int i = 0 ; i < arr.length-1; i++){
             int minpos = i;
             for(int j = i + 1 ; j< arr.length;j++){
@@ -22,8 +22,9 @@ public class SelectionSort {
     public static void main(String[] args ){
         int arr [] = { 2,1,4,3,6,5,8,7,9,10};
 
-        SelectionSort(arr);
+        selectionSort(arr);
         printarr(arr);
     }
 }
+
 
